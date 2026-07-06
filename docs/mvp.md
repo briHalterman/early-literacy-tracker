@@ -3,7 +3,7 @@
 ## Project Overview
 
 **Project Name:** Road to Kindergarten
-**Summary:** Inspired by the "1000 Books Before Kindergarten" reading challenge, this early literacy app tracks reading progress and celebrates milestones along the journey to reading 1000 books.
+**Summary:** Inspired by the "1000 Books Before Kindergarten" reading challenge, this early literacy app helps families track their reading progress and celebrate milestones along the journey to 1,000 books.
 **Problem being solved:** Existing reading tracking tools are often either overly complex or too generic, lacking engagement for young children participating in reading challenges.
 **Target users:** Families and caregivers of young children participating in early literacy programs.
 **Target markets:** Libraries and preschool programs that encourage early reading initiatives.
@@ -38,8 +38,9 @@ The primary goal of this application is to provide families and caregivers, alon
 - [ ] Application is usable on common desktop and mobile screen sizes.
 - [ ] Application gracefully handles errors.
 - [ ] Application follows principles of accessible design.
+- [ ] Automated tests pass.
 
-### Requirements
+### Functional Requirements
 
 **Users can...**
 
@@ -86,22 +87,31 @@ The primary goal of this application is to provide families and caregivers, alon
 
 ### Technical Scope
 
-- [ ] Frontend
-- [ ] Backend
-- [ ] Authentication
-- [ ] Testing
-- [ ] Deployment
+- [ ] React frontend
+- [ ] Express REST API
+- [ ] Database
+- [ ] JWT authentication
+- [ ] Automated tests
+- [ ] Production deployment
 
 ### Stretch Goals
 
+- [ ] Book counter
+- [ ] Detect duplicate books already in the reading log
+- [ ] Delete account
+- [ ] Confirmation dialogs before deleting account or log entries
+- [ ] Milestone badges
 - [ ] TypeScript
-- [ ] JavaScript animations
+- [ ] JavaScript animations to celebrate milestones
 - [ ] Dark mode
 
 ## Definition of Done
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+A feature is complete when:
+
+- [ ] Acceptance criteria are satisfied.
+- [ ] Code is formatted and linted.
+- [ ] Tests pass.
+- [ ] Documentation is updated if needed.
+- [ ] Feature has been manually tested.
+- [ ] Changes have been merged into the main branch.
