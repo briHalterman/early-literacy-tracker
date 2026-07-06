@@ -101,6 +101,8 @@ The primary goal of this application is to provide families and caregivers, alon
 - [ ] Delete account
 - [ ] Confirmation dialogs before deleting account or log entries
 - [ ] Milestone badges
+- [ ] Landing page marketing and app screenshots
+- [ ] Avatar selection
 - [ ] TypeScript
 - [ ] JavaScript animations to celebrate milestones
 - [ ] Dark mode
