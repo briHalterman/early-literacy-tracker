@@ -4,14 +4,18 @@
 Road to Kindergarten App
 │
 ├── Public Pages
-│   └── Landing Page
+│   ├── Landing Page
+│   ├── Registration Page
+│   └── Login Page
+│
+├── Shared Pages
+│   └── Book Search Results Page
 │
 ├── Authenticated Pages
 │   └── Reading Log Page
-│       ├── Log Entry Details Page
-│       │   └── Edit Log Entry Page
 │       ├── Create Log Entry Page
-│       └── Book Search Results Page
+│       └── Log Entry Details Page
+│           └── Edit Log Entry Page
 │
 └── Error Pages
     ├── Unauthorized Page
