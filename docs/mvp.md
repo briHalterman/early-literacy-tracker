@@ -74,7 +74,6 @@ The primary goal of this application is to provide families and caregivers, alon
 **Responsive Design**
 
 - [ ] desktop
-- [ ] tablet
 - [ ] mobile
 
 ### MVP Features
@@ -96,16 +95,22 @@ The primary goal of this application is to provide families and caregivers, alon
 
 ### Stretch Goals
 
-- [ ] Book counter
-- [ ] Detect duplicate books already in the reading log
-- [ ] Delete account
+- [ ] Password match verification
+- [ ] Loading state for book search and reading log
 - [ ] Confirmation dialogs before deleting account or log entries
+- [ ] Detect duplicate books already in the reading log
+- [ ] Book counter
+- [ ] Sorting and filtering reading log entries
 - [ ] Milestone badges
-- [ ] Landing page marketing and app screenshots
+- [ ] Persist selected book data through authentication flow
+- [ ] Profile CRUD
 - [ ] Avatar selection
+- [ ] Reset password
+- [ ] Delete account
+- [ ] Dark mode
+- [ ] Landing page marketing and app screenshots
 - [ ] TypeScript
 - [ ] JavaScript animations to celebrate milestones
-- [ ] Dark mode
 
 ## Definition of Done
 
@@ -115,5 +120,6 @@ A feature is complete when:
 - [ ] Code is formatted and linted.
 - [ ] Tests pass.
 - [ ] Documentation is updated if needed.
-- [ ] Feature has been manually tested.
+- [ ] Features have been manually tested.
 - [ ] Changes have been merged into the main branch.
+- [ ] No known bugs remain.
