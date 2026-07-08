@@ -1,11 +1,35 @@
 # Screen Map
 
-## Main User Flow
+## Primary User Flows
 
 ```text
 Landing Page
     │
-    v
+    ├──> Registration Page
+    │       │
+    │       v
+    │   Reading Log Page
+    │
+    ├──> Login Page
+    │       │
+    │       v
+    │   Reading Log Page
+    │
+    └──> Book Search Results Page
+            │
+            ├──> (Logged Out)
+            │       │
+            │       v
+            │  Registration Page
+            │
+            └──> (Logged In)
+                    │
+                    v
+               Create Reading Log Entry Page
+                    │
+                    v
+               Reading Log Page
+
 Reading Log Page
     │
     ├──> Create Reading Log Entry Page
@@ -33,15 +57,15 @@ Reading Log Page
 ## Error Flows
 
 ```text
-Unauthorized Page
-    ^
-    │
 Protected Route Access
-
-404 Not Found Page
-    ^
     │
+    v
+Unauthorized Page
+
 Invalid Route
+    │
+    v
+404 Not Found Page
 ```
 
 ## Copy and paste to build:
