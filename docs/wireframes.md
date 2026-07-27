@@ -3,16 +3,33 @@
 ## Landing Page
 
 ### Purpose
-Public page displaying login and register forms.
+Public page for marketing app and directing user to register or log in.
 
 ### States
 - Default state
 
+## Registration Page
+
+### Purpose
+Public page displaying registration form.
+
+### States
+- Default state
 - Validation error state
   - Email format validation error
   - Duplicate email validation error
   - Unacceptable password validation error
   - Passwords do not match validation error
+- Registration prompt state
+  - Redirected from book search
+
+## Login Page
+
+### Purpose
+Public page displaying login form.
+
+### States
+- Default state
 - Authentication error state
   - Incorrect credentials error
 
@@ -33,6 +50,7 @@ Main authenticated screen where users view titles of books that have been logged
   - Empty search error
 - Operation error state
   - Search failed error
+- Milestone message state
 
 ## Create Log Entry Page
 
@@ -41,7 +59,7 @@ Screen displaying form for new log entry creation.
 
 ### States
 - Default state
-- Pre-filled form success state
+- Book selected/pre-filled form
 - Validation error state
   - Missing title validation error
 - Operation error state
@@ -81,7 +99,7 @@ Screen that displays the results of third-party API book search.
 - Operation error state
   - Unable to select book
 
-## Unauthorized Page
+## Unauthorized Access Page
 
 ### Purpose
 Screen indicating a user does not have access to a particular route.
