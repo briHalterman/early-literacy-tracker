@@ -100,6 +100,7 @@ The primary goal of this application is to provide families and caregivers, alon
 - [ ] Confirmation dialogs before deleting account or log entries
 - [ ] Detect duplicate books already in the reading log
 - [ ] Book counter
+- [ ] Pagination
 - [ ] Sorting and filtering reading log entries
 - [ ] Milestone badges
 - [ ] Persist selected book data through authentication flow
@@ -111,6 +112,7 @@ The primary goal of this application is to provide families and caregivers, alon
 - [ ] Landing page marketing and app screenshots
 - [ ] TypeScript
 - [ ] JavaScript animations to celebrate milestones
+- [ ] Mock-Up
 
 ## Definition of Done
 
